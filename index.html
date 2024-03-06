@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <title>Ponto das Novidades</title>
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"> <a href="#" class="lista-menu__link">Roupas</a></li>
+                <li class="lista-menu__item"> <a href="#" class="lista-menu__link">Tênis</a></li>
+                <li class="lista-menu__item"> <a href="#" class="lista-menu__link">Bolsas</a></li>
+                <li class="lista-menu__item"> <a href="#" class="lista-menu__link">Masculino</a></li>
+                <li class="lista-menu__item"> <a href="#" class="lista-menu__link">Feminino</a></li>
+            </ul>
+            <img src="assets/Logo (2).png" alt="logo do PD" class="container__imagem">
+        </div>
+        <div class="container">
+            <a href="#"><img src="assets/Favoritos.svg" alt="" class="container__imagem"></a>
+            <a href="#"><img src="assets/Compras.svg" alt="" class="container__imagem"></a>
+            <a href="#"><img src="assets/Usuário.svg" alt="" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Marque um ponto no seu visual</h2>
+        <p class="banner__texto">Encontre em nossa loja o looks para o seu verão</p>
+        <input type="search" class="banner__pesquisa" placeholder="Pesquisar">
+
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novidades</h2>
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide"><img src="assets/roupa1.jpg" alt="roupa1"></div>
+                <div class="swiper-slide"><img src="assets/roupa2.jpg" alt="roupa2"></div>
+                <div class="swiper-slide"><img src="assets/roupa3.jpg" alt="roupa3"></div>
+                <div class="swiper-slide"><img src="assets/roupa4.jpg" alt="roupa4"></div>
+                <div class="swiper-slide"><img src="assets/roupa5.jpg" alt="roupa5"></div>
+                <div class="swiper-slide"><img src="assets/roupa6.jpg" alt="roupa6"></div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+
+        </div>
+
+    </section>
+
+    <div class="card">
+        <!-- 1º linha -->
+        <div class="card__descrição">
+            <!-- 1º coluna -->
+            <div class="descrição">
+                <img src="assets/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                <h3 class="descrição__titulo">Moda Verão</h3>
+                <h2 class="descrição__titulo-livro">Conjunto praia</h2>
+                <p class="descrição__texto"> para você curtir seu verão bem vestida
+                </p>
+            </div>
+            <!-- 2º coluna -->
+            <img src="assets/Conjunto.jpg" class="descrição__imagem">
+        </div>
+
+        <!-- 2º linha -->
+        <div class="card__botões">
+            <!-- 1º coluna -->
+            <ul class="botões">
+                <li class="botões__item"><img src="assets/Favoritos.svg" alt="Favoritar livro"></li>
+                <li class="botões__item"><img src="assets/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+            </ul>
+            <!-- 2º coluna -->
+            <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">Garanta seu LOOK completo</h2>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Bolsas</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Calçados</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Vestidos</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Masculino</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Blusas</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Verão</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Inverno</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Outono</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Reposição de peças, novas roupas, promoções e outros.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+        <section class="rodapé__logos">
+            <div>
+                <img src="assets/Logo.png" alt="logo pd" class="rodapé__imagem">
+                <h2 class="rodapé__titulo">Ponto das Novidades</h2>
+            </div>
+            <div>
+                <img src="assets/logokadochk.jpg" alt="" class="rodapé__imagem">
+                <h2 class="rodapé__titulo">Kadoch Advocacia</h2>
+            </div>
+
+
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                speed: 400,
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
+</body>
+
+</html>
